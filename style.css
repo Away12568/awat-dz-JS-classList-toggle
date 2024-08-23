@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.wrapper{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    .img{
+        max-width: 600px;
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    gap: 50px;
+
+}
+
+.bgc{
+    background-color: black;
+    h3{
+        color: white;
+        
+    }
+    .btn{
+        
+        background-color: aquamarine ;
+    }
+}
+.btn{
+    
+    margin: 0 600px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+}
+
+.hiden-img{
+    opacity: 0;
+    transition: 1.5s;
+}
+
+.hiden-text{
+    display: none;
+}
+
+.text{
+    
+        color: blue;
+    
+}
